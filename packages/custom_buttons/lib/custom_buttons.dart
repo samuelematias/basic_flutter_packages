@@ -1,7 +1,8 @@
 library custom_buttons;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+import 'package:custom_buttons/src/loading/custom_progress_indicator.dart';
+import 'package:flutter/material.dart';
+import 'package:extensions/extensions.dart';
+
+part 'src/buttons/primary_button.dart';
+part 'src/buttons/secondary_button.dart';
