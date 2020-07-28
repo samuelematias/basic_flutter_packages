@@ -34,8 +34,8 @@ class PrimaryButton extends StatelessWidget {
             : Text(
                 label,
                 textAlign: TextAlign.center,
-              ).h4(
                 style: TextStyle(
+                  fontSize: 14,
                   color: disabled || onPressed == null
                       ? Color(0xFFA6A6A6)
                       : Colors.white,
