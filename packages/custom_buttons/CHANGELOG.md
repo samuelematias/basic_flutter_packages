@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 28/07/2020
 
-* TODO: Describe initial release.
+- Added Primary and Secondary buttons.
