@@ -1,5 +1,5 @@
-name: custom_buttons
-description: A package with basic customm buttons.
+name: extensions
+description: A package with basic extensions.
 version: 0.0.1
 author:
 homepage:
@@ -11,8 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  extensions:
-    path: ../extensions
 
 dev_dependencies:
   flutter_test:
