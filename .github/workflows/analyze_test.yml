@@ -1,0 +1,17 @@
+name: Flutter - Analyze the code and Run tests (CI)
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install Flutter
+        uses: subosito/flutter-action@v1
+      - name: Analyze the code
+        run: flutter analyze || exit 1
+      - name: Run all tests
+        run: bash ./tests_packages.sh
