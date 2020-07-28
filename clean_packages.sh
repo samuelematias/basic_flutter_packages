@@ -6,7 +6,7 @@ printf "${BLUE}" 'Starting clean all packages'
 for dir in packages/*
 do
   cd $dir
-  printf "${GREEN}" "Cleaning: $dir"
+  printf "${GREEN}" "Cleaning in: $dir"
   ls
   flutter clean
   cd -

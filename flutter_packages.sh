@@ -6,16 +6,11 @@ RED="\e[31;1m%s\e[0m\n"
 printf "${BLUE}" 'Starting get in all packages'
 for dir in packages/*
 do
-    if [ -d "$dir/test" ] 
-    then
-        printf "${GREEN}" "Running test in: $dir"
-        cd $dir
-        ls
-        flutter packages get
-        cd -
-    else
-        printf "${RED}" "No found test in: $dir"
-    fi
+  printf "${GREEN}" "Get in: $dir"
+  cd $dir
+  ls
+  flutter packages get
+  cd -
 done
 printf "${BLUE}" 'Finished get in all packages'
 
