@@ -1,14 +1,11 @@
-# custom_buttons
+# Cutom Buttons ☑
 
-A new Flutter package project.
+Some custom reusable button widget classes.
 
-## Getting Started
+> NOTE: The author will only maintain these packages for his own internal projects. They will not be published on pub.dev.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Attention
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+**Breaking changes** may be introduced at **_any time_**.
+
+### [LICENSE: MIT](LICENSE.md)
